@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
+<<<<<<< HEAD
     "test": "jest",
     "test:watch":"jest --watch"
+=======
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+>>>>>>> e9cddf8f68a1714509e70d688eb33add7aa77c93
   },
   "author": "",
   "license": "MIT",
@@ -16,7 +21,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "jest": "^29.6.2",
+=======
+>>>>>>> e9cddf8f68a1714509e70d688eb33add7aa77c93
     "prettier": "^3.3.3"
   }
 }
